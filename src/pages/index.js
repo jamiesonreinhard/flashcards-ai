@@ -1,4 +1,4 @@
-import Layout from "../components/Layout";
+import Layout from "../components/layout";
 import LargeInput from "../components/largeInput";
 
 export default function Home() {

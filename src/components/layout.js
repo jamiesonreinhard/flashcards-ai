@@ -1,7 +1,7 @@
 import Navbar from "./navbar";
 import Footer from "./footer";
 
-const layout = ({ children }) => {
+const Layout = ({ children }) => {
   return (
     <div className="flex flex-col min-h-screen relative max-w-screen">
       <Navbar />
@@ -11,4 +11,4 @@ const layout = ({ children }) => {
   );
 };
 
-export default layout;
+export default Layout;
