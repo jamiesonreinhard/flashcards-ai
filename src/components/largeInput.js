@@ -18,7 +18,7 @@ const LargeInput = () => {
       <input
         id="mainInput"
         type="text"
-        className="pl-20 py-3 pr-3 w-full rounded-full text-xl border border-secondary focus:outline-none focus:ring-2 focus:ring-secondary"
+        className="pl-20 py-3 pr-3 w-full rounded-full text-xl focus:outline-none border-none focus:ring-2 focus:ring-black"
         placeholder="Search"
       />
     </div>

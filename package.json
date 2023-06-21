@@ -10,6 +10,7 @@
   "dependencies": {
     "@iconscout/react-unicons": "^2.0.2",
     "autoprefixer": "^10.4.14",
+    "axios": "^1.4.0",
     "moment": "^2.29.4",
     "next": "13.4.6",
     "postcss": "^8.4.24",

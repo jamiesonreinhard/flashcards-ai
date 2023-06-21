@@ -8,3 +8,19 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     background-color: beige;
 }
+
+@keyframes moveBackground {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+.bg-patterned {
+  background-image: url('/images/tile-background.png');
+  background-size: cover;
+  background-repeat: repeat;
+  animation: moveBackground 20s linear infinite;
+}
